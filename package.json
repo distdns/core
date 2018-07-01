@@ -1,0 +1,32 @@
+{
+  "name": "@distdns/core",
+  "version": "0.1.1",
+  "description": "dWeb Multicast DNS Javascript Library",
+  "contributors": [
+    "Jared Rice Sr. <jared@dwebs.io>",
+    "Distributed Webs Project, LLC. <labs@distributedwebs.org>"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "bin": {
+    "mdns": "./bin.js"
+  },
+  "dependencies": {
+    "dns-packet": "^4.0.0",
+    "thunky": "^1.0.2"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3",
+    "tape": "^4.8.0"
+  },
+  "coordinates": [
+    32.780258,
+    -96.796784
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
