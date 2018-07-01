@@ -1,6 +1,6 @@
 {
   "name": "@distdns/core",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "dWeb Multicast DNS Javascript Library",
   "contributors": [
     "Jared Rice Sr. <jared@dwebs.io>",
@@ -12,7 +12,7 @@
     "test": "standard && tape test.js"
   },
   "bin": {
-    "mdns": "./bin.js"
+    "mdns": "./cli.js"
   },
   "dependencies": {
     "dns-packet": "^4.0.0",
